@@ -1,0 +1,57 @@
+Project Scope, Schedule, Team & Deliverables
+
+Project Summary:
+In this developer code pattern, we use the typical customer care chatbot experience but instead of relying on predefined responses, our dialog will provide a hook that can call out to other IBM Watson services for additional sources of information. To take it a step further, the project shall use the Smart Document Understanding feature of Watson Discovery to train it on what text in the owners manual is important and what is not. This will improve the answers returned from the queries.
+
+Project Requirements:
+Create a customer care dialog skill in Watson Assistant
+Use Smart Document Understanding to build an enhanced Watson Discovery collection
+Create an IBM Cloud Functions web action that allows Watson Assistant to post queries to Watson Discovery
+
+Functional Requirements:
+The document is annotated using Watson Discovery Smart Document Understanding.
+The user interacts with the back-end server via the app UI. The front-end app UI is a chatbot that engages the user in a conversation.
+Dialog between the user and back-end server is coordinated using a Watson Assistant dialog skill.
+If the user asks a product operation question, a search query is passed to a predefined IBM Cloud Functions action.
+The IBM Cloud Functions action will query the Watson Discovery Service and return the results.
+
+
+Technical Requirements:
+OS independent
+Python
+Artificial Intelligence
+Node.js
+
+Software Requirements:
+IBM Cloud
+IBM Watson
+IBM Discovery
+IBM Assistant
+React
+
+Project Deliverables:
+Intelligent Customer Help Desk with Smart Document Understanding
+
+Project Team:
+Parth Shah
+Smartbridge mentors
+
+Project Schedule:
+Project Scope, Schedule, Team & Deliverables (1 Day)
+Setup the development environment (1 Day)
+Create IBM Cloud account (0.5 Day)
+Create a NODE-RED starter application (1 Day)
+Explore IBM Watson Usecases (1 Day)
+Introduction To Watson Assistance (2 Days)
+Introduction To Watson Discovery (2 Days)
+Getting Started With IBM Cloud Functions (1 Day)
+Create Necessary IBM Cloud Services (1 Day)
+Configure Watson Discovery Service (1 Day)
+Create Cloud Functions Action (1 Day)
+Configure Watson Assistant (1 Day)
+Build Node-RED Flow To Integrate All Services (2 Days)
+Build Node-RED Flow To Integrate All Services (1 Day)
+Test The Bot & Capture The Results (1 Day)
+Prepare The Project Report & Upload The Node-RED Flow To GitHub (1 Day)
+Create A Project Demo Video & Upload To Youtube (1 Day)
+
